@@ -6,6 +6,8 @@
     <meta name="author" content="Ксения Галиченко">
     <meta name="robots" content="all">
     <title>Ксения Галиченко - веб-разработчик</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
    
@@ -14,11 +16,11 @@
            <div class="logo">Ксения Галиченко</div>
            <div class="menu">
                <ul>
-                   <li><a>Обо мне</a></li>
-                   <li><a>Услуги</a></li>
-                   <li><a>Кейсы</a></li>
-                   <li><a>Отзывы</a></li>
-                   <li><a>Контакты</a></li>
+                   <li>Обо мне</li>
+                   <li>Услуги</li>
+                   <li>Кейсы</li>
+                   <li>Отзывы</li>
+                   <li>Контакты</li>
                </ul>
            </div>
        </nav>
@@ -38,51 +40,80 @@
    
    <div class="about_me">
       <h2>Обо мне</h2>
-       <img src="...">
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci inventore distinctio architecto ad ipsa voluptas accusamus rerum impedit assumenda voluptates.</p>
-       <form action="...">
-           <button type="submit">Скачать резюме</button>
-       </form>      
+      <hr>
+       <img src="img/me.jpg">
+       <p class="firstText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci inventore distinctio architecto ad ipsa voluptas accusamus rerum impedit assumenda voluptates.</p>
+       <p class="secondText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, provident fugit laudantium illo temporibus quasi rerum quisquam, vel, porro eveniet nam, inventore dolorem pariatur. Ex velit dignissimos a error eum?</p>
+       <div class="resume">
+           <a href="..">Скачать резюме</a>
+       </div>
+            
    </div>
    
    <div class="skills">
-       <h2>Что я умею</h2>
+      <div class="skills_container">
+          <h2>Что я умею</h2>
+          <hr>
        
-       
+      
        <div class="skills_item">
-           <img src="...">
+           <img src="img/laptop.png">
            <h3>Веб-дизайн</h3>
            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, at.</p>
        </div>
        <div class="skills_item">
-           <img src="...">
+           <img src="img/settings.png">
            <h3>Разработка</h3>
            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, molestias!</p>
        </div>
        <div class="skills_item">
-           <img src="...">
+           <img src="img/rocket.png">
            <h3>СЕО-Оптимизация</h3>
            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, magni.</p>
        </div>
        <div class="skills_item">
-           <img src="...">
+           <img src="img/megaphone.png">
            <h3>Маркетинг</h3>
            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, eligendi.</p>
        </div>
+       <div class="clear"></div>
+       </div> 
        
    </div>
    
    <div class="cases">
        <h2>Кейсы</h2>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel veritatis error cum quo voluptatum reprehenderit, nesciunt, dolorum alias ut. Similique.</p>
-       
+       <hr>
+       <p class="firstP">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel veritatis error cum quo voluptatum reprehenderit, nesciunt, dolorum alias ut. Similique.</p>
+       <img src="img/case.png">
+       <div class="cases_container">
+       <div class="cases_item">
+         <div class="cases_item1">
+          <h3>Client:</h3>
+          <p>Какая-то компания</p>
+           <h3>Website:</h3>
+           <div class="p1"><p>http://www.somedomain.com</p></div>
+           </div>
+       </div>
+       <div class="cases_item">
+          <div class="cases_item2">
+           <h3>Название проекта</h3>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint quas fugiat error ipsum, unde recusandae beatae optio, soluta perspiciatis nisi ducimus, ipsam atque illum nobis sit rem reiciendis rerum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam ipsum, quis, laboriosam similique rem eveniet sapiente recusandae dolores voluptatum quaerat corporis odio ea laborum provident dolor minima, mollitia asperiores!</p>
+           </div>
+       </div>
+       </div>
+       <div class="livesite">
+       <a href="..">Visit live site</a>
+       </div>
    </div>
    
    <div class="calculator">
      <h2>Расчет стоимости</h2>
+     <div class="calculator_container">
      <div class="calculator_item">
          <h3>Тип сайта</h3>
          <select>
+         <option>Выберите пункт...</option>
          <option>Тип сайта 1</option>
          <option>Тип сайта 2</option>
          </select>
@@ -90,6 +121,7 @@
       <div class="calculator_item">
           <h3>Дизайн</h3>
           <select>
+              <option>Выберите пункт...</option>
               <option>Дизайн 1</option>
               <option>Дизайн 1</option>
           </select>
@@ -97,76 +129,94 @@
        <div class="calculator_item">
            <h3>Адаптивность</h3>
            <select>
+               <option>Выберите пункт...</option>
                <option>Вариант 1</option>
                <option>Вариант 2</option>
            </select>
        </div>
+       <hr>
        <h4>Сроки</h4>
        <h4>Стоимость</h4>
+       </div>
    </div>
    
    <div class="statistics">
        <h2>Немного статистики</h2>
+       <hr>
+       <div class="statistics_container">
        <div class="statistics_item">
-           <img src="...">
+           <img src="img/emoticon.png">
            <h3>0</h3>
            <p>Счастливых клиентов</p>
        </div>
        <div class="statistics_item">
-           <img src="...">
+           <img src="img/time.png">
            <h3>2</h3>
            <p>Часа работы</p>
        </div>
        <div class="statistics_item">
-           <img src="...">
+           <img src="img/check.png">
            <h3>0</h3>
            <p>Проектов завершено</p>
        </div>
        <div class="statistics_item">
-           <img src="...">
+           <img src="img/medal.png">
            <h3>0</h3>
            <p>Наград получено</p>
+       </div>
        </div>
    </div>
    
    <div class="reviews">
        <h2>Отзывы</h2>
-       <img src="...">
+       <hr>
+       <img src="img/ava.png">
        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut laudantium hic, libero accusamus nisi impedit perferendis natus excepturi dolor placeat odit. <br>Dolorum odit vero, molestiae quis tenetur reiciendis iusto doloribus officia animi perferendis nostrum velit porro, quia nisi debitis cum.</p>
        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, error!</p>
    </div>
    
    <div class="contacts">
        <h2>Мои контакты</h2>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, at.</p>
-       
+       <hr>
+       <p class="contactsP">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit maiores temporibus, assumenda quidem corrupti dicta.</p>
+       <div class="contacts_container">
        <div class="contacts_item">
-           <img src="...">
-           <p>Lorem ipsum dolor sit amet.</p>
+           <img src="img/marker.png">
+           <p>Калининград Аксакова 137</p>
        </div>
        <div class="contacts_item">
-           <img src="...">
-           <p>Lorem ipsum dolor sit.</p>
+           <img src="img/mail.png">
+           <p>info@companyname.com</p>
        </div>
        <div class="contacts_item">
-           <img src="...">
-           <p>Lorem ipsum dolor.</p>
+           <img src="img/phone.png">
+           <p>+7 999 999-99-99</p>
        </div>
-       
+       </div>
+       <div class="clear"></div>
+       <h3>Оставьте мне сообщение</h3>
        <form>
            <input type="text" placeholder="Имя">
            <input type="text" placeholder="Email">
-           <textarea placeholder="Сообщение"></textarea>
-           <button>Отправить</button>
+           <div class="clear"></div>
+           <textarea placeholder="Сообщение"></textarea>                       
        </form>
+       <div class="clear"></div>   
+       <input class="button" type="submit" value="Отправить">
+       <div class="icons">
+           <img src="img/facebook.png">
+           <img src="img/instagram.png">
+           <img src="img/linkedin.png">
+           <img src="img/twitter.png">
+           <img src="img/whatsapp.png">
+       </div>
    </div>
    
    <div class="map">
-       ...
    </div>
    
    <footer>
-       <p>Copyright 2022 Ксения Галиченко. Design by Web</p>
+       <p class="footer">Copyright 2022 Ксения Галиченко. Design by Web</p>
    </footer>
     
 </body>

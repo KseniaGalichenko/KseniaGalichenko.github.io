@@ -1,0 +1,496 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background: #1b2932;
+}
+
+.logo {
+    color: #fff;
+    font-size: 25px;
+    line-height: 60px;
+    padding-left: 270px;
+    float: left;
+}
+
+.menu {
+    float: left;
+    padding-left: 432px;
+}
+
+.menu li {
+    float: left;
+    line-height: 60px;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+    
+}
+
+.main {
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url(../img/fon.jpg) center/cover no-repeat;
+}
+
+.title__container {
+    float: left;
+    margin: 150px 0px 0px 150px;
+    color: #fff;
+    text-align: center;
+}
+
+.title__container h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.title__container h4 {
+    margin-top: 40px;
+    font-size: 22px;
+    color: #fff;
+}
+
+.title__container input {
+    height: 45px;
+    text-align: center;
+    border: 2px solid #fff;
+    background: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    padding: 0px 16px;
+    margin: 50px 30px 0px 14px;
+}
+
+.about_me {
+    width: 100%;
+    height: 600px;
+}
+
+.about_me h2 {
+    width: 200px;
+    font-size: 25px;
+    color: #1b2932;
+    margin: 108px auto 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about_me {
+    width: 740px;
+    margin: 0 auto;
+}
+
+.about_me hr {
+    height: 4px;
+    border: none;
+    background: #35503f;
+    width: 80px;
+    margin: 0 auto;
+}
+
+.about_me img {
+    margin: 60px auto 20px;
+    display: block;
+}
+
+.about_me p {
+    margin-top: 30px;
+}
+
+.about_me .secondText {
+    margin-top: 20px;
+}
+
+.resume {
+    float: inherit;
+    width: 155px;
+    height: 25px;
+    text-align: center;
+    border: 3px solid #35503f;
+    background: none;
+    border-radius: 5px;
+    color: #35503f;
+    font-size: 16px;
+    padding: 2px;
+    margin: 50px auto 14px;
+}
+   
+.skills {
+    height: 521px;
+    background-color: rgba(53, 80, 63, 0.9);
+}
+
+.skills h2 {
+    color: #fff;
+    width: 200px;
+    font-size: 25px;
+    margin: 30px auto;
+    padding-top: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.skills_item {
+    color: #fff;
+    float: left;
+    width: 230px;
+    text-align: center;
+}
+
+.skills_container {
+    width: 920px;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: left;
+}
+
+.skills_item h3 {
+    color: #a3785f;
+    margin: 20px auto;
+    font-size: 18px
+}
+
+.skills_container hr {
+    height: 4px;
+    border: none;
+    background: #a3785f;
+    width: 80px;
+    margin: 0 auto 100px;
+}
+
+.cases {
+    width: 100%;
+    height: 950px;
+}
+
+.cases h2 {
+    width: 200px;
+    font-size: 25px;
+    color: #1b2932;
+    margin: 70px auto 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cases hr {
+    height: 4px;
+    border: none;
+    background: #35503f;
+    width: 80px;
+    margin: 15px auto 40px;
+}
+
+.cases .firstP {
+    text-align: center;
+}
+
+.cases img {
+    display: block;
+    width: 1170px;
+    height: 575px;
+    margin: 60px auto 5px;
+}
+
+.cases_item {
+    float: left;
+}
+
+.cases_container {
+    width: 1300px;
+    margin: 0 150px;
+}
+
+.cases_item1 {
+    width: 205px;
+}
+
+.cases_item2 {
+    width: calc(1170px - 205px);
+}
+
+.cases_item1 h3 {
+    line-height: 30px;
+    text-transform: uppercase;
+    font-weight: 550;
+    color: #1b2932;
+    font-size: 17px;
+}
+
+
+.cases a {
+    float: left;
+    height: 45px;
+    text-align: center;
+    border: 2px solid #35503f;
+    background: #35503f;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 13px 33px;
+    margin: 10px 150px;
+
+}
+
+.cases_item2 h3 {
+    line-height: 30px;
+    font-weight: 550;
+    color: #1b2932;
+    font-size: 17px;
+}
+
+.cases_item2 p {
+    line-height: 20px;
+}
+
+.calculator {
+    width: 100%;
+    height: 850px;
+}
+
+.calculator h2 {
+    text-align: center;
+    margin: 100px auto 60px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #1b2932;
+}
+
+.calculator_container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.calculator_item h3 {
+    text-align: left;
+    text-transform: uppercase;
+    margin: 25px 0px 50px;
+    color: #1b2932;
+    font-weight: 550;
+    font-size: 20px
+}
+
+.calculator_item select {
+    display: block;
+    font-size: 14px;
+    color: #000;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(53, 80, 63, 0.2);
+}
+
+.calculator hr {
+    height: 2px;
+    border: none;
+    background: rgba(53, 80, 63, 0.3);
+    width: 100%;
+    margin: 40px auto 30px;
+} 
+
+.calculator h4 {
+    font-size: 18px;
+    margin: 0px auto 30px;
+}
+
+.statistics {
+    width: 100%;
+    height: 500px;
+    background-color: rgba(53, 80, 63, 0.9);
+    color: #fff;
+}
+
+.statistics h2 {
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-top: 105px;
+}
+
+.statistics hr {
+    height: 4px;
+    border: none;
+    background: #a3785f;
+    width: 80px;
+    margin: 33px auto 88px;
+}
+
+.statistics_container {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+.statistics_item {
+    float: left;
+    width: 260px;
+    text-align: center;
+}
+
+.statistics_container h3 {
+    font-weight: bold;
+    font-size: 27px;
+    margin: 30px auto;
+}
+
+.statistics_container p {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.reviews {
+    width: 100%;
+    height: 595px;
+}
+
+.reviews h2 {
+    width: 200px;
+    font-size: 25px;
+    color: #1b2932;
+    margin: 70px auto 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.reviews hr {
+    height: 4px;
+    border: none;
+    background: #35503f;
+    width: 80px;
+    margin: 27px auto 40px;
+}
+
+.reviews img {
+    display: block;
+    margin: 20px auto 0px; 
+}
+
+.reviews p {
+    text-align: center;
+    margin: 40px auto;
+    line-height: 18px;
+}
+
+.contacts {
+    height: 812px;
+    width: 100%;
+    background: url(../img/fon.jpg) center/cover no-repeat;
+}
+
+.contacts h2 {
+    text-align: center;
+    font-size: 27px;
+    text-transform: uppercase;
+    padding-top: 105px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.contacts hr {
+    height: 4px;
+    border: none;
+    background: #a3785f;
+    width: 80px;
+    margin: 33px auto 37px;
+}
+
+.contactsP {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.contacts_container {
+    width: 616px;
+    margin: 0 auto;
+}
+
+.contacts_item {
+    float: left;
+    width: 205px;
+    text-align: center;
+    color: #fff;
+}
+
+.contacts_item p {
+    margin: 20px auto;
+}
+
+.contacts h3 {
+    text-align: center;
+    font-size: 21px;
+    text-transform: uppercase;
+    padding-top: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 350px;
+    height: 35px;
+    margin: 50px 15px 16px;
+    padding-left: 15px;
+}
+
+
+textarea {
+    width: 745px;
+    height: 95px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 15px;
+    margin-bottom: 31px;
+}
+
+.button {
+    display: block;
+    height: 45px;
+    text-align: center;
+    border: 2px solid #fff;
+    background: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    margin: 0px auto;
+}
+
+.icons {
+    width: 430px;
+    margin: 0 auto;
+}
+
+.icons img {
+    margin: 45px 25px; 
+}
+
+.map {
+    width: 100%;
+    height: 350px;
+}
+
+footer {
+    width: 100%;
+    height: 95px;
+    background: #1b2932;
+}
+
+.footer {
+    float: left;
+    color: #fff;
+    padding-left: 580px;
+    padding-top: 43px;
+}
